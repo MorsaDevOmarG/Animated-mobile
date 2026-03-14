@@ -24,6 +24,8 @@ const Animacion5 = () => {
 
     Animated.spring(animacion, {
       toValue: 1,
+      friction: 4, // La fricción es la cantidad de rebotes que tendrá la animación
+      tension: 40, // La tensión es la velocidad de la animación
       useNativeDriver: true,
     }).start();
   };
@@ -35,7 +37,7 @@ const Animacion5 = () => {
   return (
     <View style={styles.contenedor}>
       <TouchableWithoutFeedback
-        onPress={() => presionarBtn()}
+        onPressIn={() => presionarBtn()}
         onPressOut={() => soltarBtn()}
       >
         <Animated.View style={[styles.btn, estiloAnimacion]}>
