@@ -6,12 +6,15 @@ import {
   View,
 } from 'react-native';
 import Animacion1 from './components/Animacion1';
+import Animacion2 from './components/Animacion2';
 
 const AppContent = () => {
   return (
     <>
       <View style={styles.contenido}>
-        <Animacion1 />
+        {/* <Animacion1 /> */}
+
+        <Animacion2 />
       </View>
     </>
   );
