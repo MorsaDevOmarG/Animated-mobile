@@ -17,6 +17,21 @@ const Animacion6 = () => {
         duration: 500,
         useNativeDriver: true,
       }),
+      Animated.timing(animacion2, {
+        toValue: 30,
+        duration: 500,
+        useNativeDriver: true,
+      }),
+      Animated.timing(animacion1, {
+        toValue: 0,
+        duration: 500,
+        useNativeDriver: true,
+      }),
+      Animated.timing(animacion2, {
+        toValue: -30,
+        duration: 500,
+        useNativeDriver: true,
+      }),
     ]).start();
   }, []);
 
