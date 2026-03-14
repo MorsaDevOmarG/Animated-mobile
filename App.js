@@ -11,8 +11,6 @@ const AppContent = () => {
   return (
     <>
       <View style={styles.contenido}>
-        <Text>App Content</Text>
-
         <Animacion1 />
       </View>
     </>
