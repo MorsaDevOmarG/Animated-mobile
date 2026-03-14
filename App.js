@@ -8,6 +8,7 @@ import {
 import Animacion1 from './components/Animacion1';
 import Animacion2 from './components/Animacion2';
 import Animacion3 from './components/Animacion3';
+import Animacion4 from './components/Animacion4';
 
 const AppContent = () => {
   return (
@@ -15,7 +16,8 @@ const AppContent = () => {
       <View style={styles.contenido}>
         {/* <Animacion1 /> */}
         {/* <Animacion2 /> */}
-        <Animacion3 />
+        {/* <Animacion3 /> */}
+        <Animacion4 />
       </View>
     </>
   );
